@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types'; 
 
 const NavLink = ({route}) => {
     const {path, name} = route;
@@ -9,4 +10,7 @@ const NavLink = ({route}) => {
     );
 };
 
+NavLink.PropTypes = {
+    route: PropTypes.object
+}
 export default NavLink;
