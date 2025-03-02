@@ -6,7 +6,7 @@ import { BarChart, Bar, ResponsiveContainer, XAxis, YAxis, Tooltip } from 'recha
 
 const Phones = () => {
     const [phone, setPhone] = useState([]);
-
+    // Module 44-7
     useEffect(()=>{
         axios.get('https://openapi.programming-hero.com/api/phones?search=iphone')
         .then(data=>{
