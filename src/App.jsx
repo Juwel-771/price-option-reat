@@ -6,6 +6,7 @@ import NavBar from './component/NavBar/NavBar';
 import PriceOptions from './component/PriceOptions/PriceOptions';
 // import { LineChart } from 'recharts';
 import LineChart from './component/LineChart/LineChart';
+import Phones from './component/Phones/Phones';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
       {/* <FormData></FormData> */}
       <PriceOptions></PriceOptions>
       <LineChart></LineChart>
+      <Phones></Phones>
     </>
   )
 }
