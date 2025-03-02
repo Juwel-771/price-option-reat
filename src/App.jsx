@@ -11,7 +11,7 @@ function App() {
     <>
       {/* <DaisyNav></DaisyNav> */}
       <NavBar></NavBar>
-      <FormData></FormData>
+      {/* <FormData></FormData> */}
     </>
   )
 }

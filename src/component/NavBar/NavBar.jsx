@@ -20,7 +20,7 @@ const NavBar = () => {
             }  
     
         </div>
-        <ul className={`md:flex p-4 duration-1000 absolute ${open ? 'top-10': '-top-56'}`}>
+        <ul className={`md:flex p-4 duration-1000 absolute md:static ${open ? 'top-12': '-top-72'}`}>
             {
                 routes.map((route) => (<NavLink route={route}></NavLink>))
             }
